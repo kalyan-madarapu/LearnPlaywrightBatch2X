@@ -1,2 +1,2 @@
-console.log("The Testing Academy");
 let  x=10;
+console.log(x)
