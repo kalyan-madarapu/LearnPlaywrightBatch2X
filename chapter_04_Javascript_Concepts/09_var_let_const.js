@@ -1,31 +1,18 @@
-var v = 10;
-let l = 30;
+var v=10;
+let l = 20;
 const c = 3.14;
+var browser="chrome"
+var browser="firefox"//redeclaration allowed with var
+browser="edge"//reassignment aallowed with var
 
-var browser = "chrome";
-var browser = "firefox"; // redeclaration allowed
-browser = "edge"; // reassignment allowed
-
-// for, functions
-
-var testCases = ["login", "logout", "signup"];
-
-for (var i = 0; i < testCases.length; i++) {
-    console.log("Running test:", testCases[i]);
+//ex
+var testcase={'login','logout','signup'}
+for(var i=0;i<testcase.length;i++){
+    console.log("running test",testcase[i])
 }
+console.log("loop counter leaked outside:",i)//i is accessible outside the loop with var
 
-console.log("Loop counter leaked outside:", i);
-
-
-
-console.log("Hi");
-console.log("Hi");
-console.log("Hi");
-
-function say() {
-    console.log("Hi from Function");
+function sayHello(){
+    console.log("Hello")
 }
-
-
-say();
-say();
+sayHello();

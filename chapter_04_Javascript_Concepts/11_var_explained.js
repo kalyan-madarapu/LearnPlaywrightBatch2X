@@ -1,23 +1,15 @@
-var a = 10;// Global SCOPE
-
-// var is function scoped
-
-
-console.log(a);
-
-function printHello() {
-    console.log("Hello Harsh Vardhan Singh ");
-    var a = 20; // Local Scope
-    console.log(a);
-    if (true) {
-        var a = 30;
-        console.log(a); // 30
+var a=20;
+console.log(a);//function scope and global scope with var
+function printHello(){
+    console.log("Hello World");
+    var a=30;//local scope
+    console.log("variable value:", a);
+    //loop statement with var
+    if(true){
+        var a=40;//var
+        console.log(a);        
     }
-
 }
-
 printHello();
-
-var a = 50;
-
-// var == trump, flipper, dual faced, no trust worthy
+console.log("variable value outside function:", a);
+        
