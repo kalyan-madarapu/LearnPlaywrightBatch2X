@@ -1,9 +1,10 @@
 let testRun = new Promise(function(resolve, reject) {
   let apiCall = true;
 
-  if (true) {
+  if (apiCall) {
     resolve({ status: "done" });
   } else {
+    
     reject("Assertion failed");
   }
 });

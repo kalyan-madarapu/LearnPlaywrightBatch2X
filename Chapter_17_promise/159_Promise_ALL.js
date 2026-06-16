@@ -14,4 +14,4 @@ promise.all([
     console.log(r)
 }).catch(function(error){
     console.log("Failed",error)
-})
+}) 
