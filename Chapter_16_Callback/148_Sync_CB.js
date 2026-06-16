@@ -1,6 +1,4 @@
 let testResults = ["Pass", "Fail", "Pass", "Skip"];
-
-
 testResults.forEach(function (result, index) {
     console.log("Test " + index + "=> " + result);
 })
@@ -9,3 +7,8 @@ testResults.forEach(function (result, index) {
 //  the anonymous function will take the item 1 by 1,
 //  it will take the index 1 by 1, it will take
 //  the result 1 by 1, and print the value 1 by 1. 
+
+/*Test 0=> Pass
+Test 1=> Fail
+Test 2=> Pass
+Test 3=> Skip  */

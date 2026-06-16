@@ -1,16 +1,16 @@
-let fruits = ["banana", "apple", "cherry"];
+let fruits =["apple","banana","cheery"]
 fruits.sort();
 console.log(fruits);
 
-let number = [3, 1, 4];
-number.sort()
-console.log(number);
+let number=[3,1,5,6]
+number.sort();
+console.log(number)
 
-let nums = [10, 1, 21, 2];
+
+let nums=[10,1,20,2]
 nums.sort();
 console.log(nums);
-// Natural Sorting, lexicographic Sorting)
-nums.sort((a, b) => a - b); // Ascending
-console.log(nums);
-nums.sort((a, b) => b - a);
+
+
+nums.sort((a,b) => a - b);
 console.log(nums);
